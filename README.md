@@ -56,7 +56,7 @@ What the API does:
 - reads work, creates don'test
 - I think db data model is correct (first experience with non-relational db)
 - user auth, token handling, and hashing of passwords via bcrypt  
-Does not have:  
+What the API Does not have/does not do:  
 - tests - ran out of time
 - does not have preconfigured views
 - other than simple login, does not feature user access control (views, updates, etc), but test spec suggested all actions were from a single provider...
