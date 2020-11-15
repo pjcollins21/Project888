@@ -41,7 +41,7 @@ Run Instructions:
 		 "email": "radmin@nowhere.com",  
 		 "password": "security"  
 		}  
-<b?NOTEL</b>You should be able to skip the create user step by using credentials above  
+**NOTE:**You should be able to skip the create user step by using credentials above  
 13. Capture JWT bearer token  
 	- Sample token:  
 		eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDUzODMyNDksIm5iZiI6MTYwNTM4MzI0OSwianRpIjoiNWY5MmQ1ZTctYmM3MS00ZjBjLWFhOTUtYmJkNzRhNGU4NjBhIiwiZXhwIjoxNjA1ODE1MjQ5LCJpZGVudGl0eSI6IjVmYjAzM2ZjNDczYzc1YjJkN2FlYTY0MyIsImZyZXNoIjpmYWxzZSwidHlwZSI6ImFjY2VzcyJ9.UWpsxPEFJ22T_BNDOO3eCfocQbtEcpLrkaBrKX5nCew  
