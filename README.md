@@ -53,7 +53,7 @@ Run Instructions:
 	  
 What the API does:  
 - dead simple access to DB
-- reads work, creates don'test
+- GET works, not so sure about PUT and POST...
 - I think db data model is correct (first experience with non-relational db)
 - user auth, token handling, and hashing of passwords via bcrypt  
 What the API Does not have/does not do:  
