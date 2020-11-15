@@ -1,0 +1,5 @@
+flask
+flask_mongoengine
+flask-bcrypt
+flask-restful
+flask-jwt-extended

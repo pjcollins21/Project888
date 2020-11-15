@@ -1,0 +1,26 @@
+{
+	"id": 995000000001,
+	"url":"http://localhost:27017/id",
+	"name": "Denver Broncos vs Los Angeles Chargers",
+	"startTime": "2020-11-20 23:30:00",
+	"sport": {
+		"id": 225,
+		"name": "USFootball"
+	},
+	"markets": [
+		"id": 386000050060004001,
+		"name": "Winner",
+		"selections": [
+			{
+				"id": 8300000700003000005,
+				"name": "Denver Broncos",
+				"odds": 0.98
+			},
+			{
+				"id": 8300000700003000003,
+				"name": "Los Angeles Chargers",
+				"odds": 1.23
+			}
+		]
+	]
+}

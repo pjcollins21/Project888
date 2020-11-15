@@ -1,0 +1,36 @@
+Project888
+
+entity
+
+users
+support
+	view matches by id
+	view matches ordered by start time
+	view matches filtered by name
+event manager
+	post new event
+	update odds
+db admin
+	full read/write
+
+from project spec "Receiving data:
+- For our purposes, we can assume this API will be used by a single provider, so no need to keep track of which provider is sending the
+message." -- assume this means we do not need to implement roles/user access control
+	
+db
+
+event:
+	id:
+	url:
+	name:
+	startTime:
+	sport:
+		id:
+		name:
+	markets:
+		id:
+		name:
+		selections: (contestants 2 -> N? [12 - 20 - 100?]
+			id:
+			name:
+			odds:
