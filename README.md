@@ -7,20 +7,20 @@ Run Instructions:
 {Installation assuming not present on PC}  
 1. Download install Mongodb and Mongodb Database Tools  
 	-Tools is a zip archive, once extracted, get the path to \bin and add that to your PATH  
-Install Python  
-Install pip  
-Optional - Install VirtualEnv  
-Clone Git Repo  
-Navigate into Repo directory and initial venv:  
+2. Install Python  
+3. Install pip  
+- Optional - Install VirtualEnv  
+4. Clone this Git Repo  
+5. Navigate into Repo directory and initial venv:  
 	- c:\users\(your_user_name)\myenv\Scripts\activate.bat  
-Run: pip  
-pip install -r requirements.txt  
-Initialize MongoDb:  
-	- "C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe"  
-Load project db:  
-	- mongorestore -h localhost c:\{path-to-cloned-repo}\db  
-Initialize FlaskAPI:  
-	- from root of cloned repo, run: python app.python  
+6. Run:  
+- pip install -r requirements.txt  
+7. Initialize MongoDb:  
+- "C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe"  
+8. Load project db:  
+- mongorestore -h localhost c:\{path-to-cloned-repo}\db  
+9. Initialize FlaskAPI:  
+- from root of cloned repo, run: python app.python  
 Using Postman or similar API test tool (or a browser with dev console to deliver JSON payloads)  
 Create a user  
 	- http://127.0.0.1:5000/authentication/signup/  
